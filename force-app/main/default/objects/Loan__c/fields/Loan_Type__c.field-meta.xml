@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Loan_Type__c</fullName>
+    <label>Loan Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>个人一手楼住房贷款</fullName>
+                <default>false</default>
+                <label>个人一手楼住房贷款</label>
+            </value>
+            <value>
+                <fullName>个人二手楼住房贷款</fullName>
+                <default>false</default>
+                <label>个人二手楼住房贷款</label>
+            </value>
+            <value>
+                <fullName>个人商业用房贷款</fullName>
+                <default>false</default>
+                <label>个人商业用房贷款</label>
+            </value>
+            <value>
+                <fullName>住房公积金贷款 / 组合贷款</fullName>
+                <default>false</default>
+                <label>住房公积金贷款 / 组合贷款</label>
+            </value>
+            <value>
+                <fullName>个人消费贷款</fullName>
+                <default>false</default>
+                <label>个人消费贷款</label>
+            </value>
+            <value>
+                <fullName>闪电贷</fullName>
+                <default>false</default>
+                <label>闪电贷</label>
+            </value>
+            <value>
+                <fullName>个人汽车贷款</fullName>
+                <default>false</default>
+                <label>个人汽车贷款</label>
+            </value>
+            <value>
+                <fullName>e 招贷</fullName>
+                <default>false</default>
+                <label>e 招贷</label>
+            </value>
+            <value>
+                <fullName>质押贷款</fullName>
+                <default>false</default>
+                <label>质押贷款</label>
+            </value>
+            <value>
+                <fullName>个人经营贷款</fullName>
+                <default>false</default>
+                <label>个人经营贷款</label>
+            </value>
+            <value>
+                <fullName>招捷贷</fullName>
+                <default>false</default>
+                <label>招捷贷</label>
+            </value>
+            <value>
+                <fullName>周转易 / 消费易</fullName>
+                <default>false</default>
+                <label>周转易 / 消费易</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
