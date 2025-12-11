@@ -5,7 +5,7 @@
     <summaryFilterItems>
         <field>Repayment_Record__c.Repayment_Status__c</field>
         <operation>equals</operation>
-        <value>已结清</value>
+        <value>Success</value>
     </summaryFilterItems>
     <summaryForeignKey>Repayment_Record__c.Loan__c</summaryForeignKey>
     <summaryOperation>count</summaryOperation>
