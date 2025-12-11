@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Repayment_Status__c</fullName>
-    <label>Repayment Status</label>
-    <required>true</required>
+    <fullName>Status__c</fullName>
+    <label>Status</label>
+    <required>false</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
@@ -11,14 +11,14 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>Success</fullName>
+                <fullName>正常</fullName>
                 <default>false</default>
-                <label>已结清</label>
+                <label>正常</label>
             </value>
             <value>
-                <fullName>Failure</fullName>
+                <fullName>冻结</fullName>
                 <default>false</default>
-                <label>还款失败</label>
+                <label>冻结</label>
             </value>
         </valueSetDefinition>
     </valueSet>
